@@ -5,22 +5,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
+import Main from '../components/main.jsx'
 
 const Hello = props => (
   <div>Hello {props.name}!</div>
 )
 
-Hello.defaultProps = {
-  name: 'David'
-}
-
-Hello.propTypes = {
-  name: PropTypes.string
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Hello name="React" />,
+    <Main />,
     document.body.appendChild(document.createElement('div')),
   )
 })
