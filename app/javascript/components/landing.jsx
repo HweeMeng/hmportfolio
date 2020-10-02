@@ -11,9 +11,7 @@ class Landing extends React.Component {
     render(){
         return (
             <div>
-                <h3>
-                    This is where the Landing is
-                </h3>
+                <h3>This is landing</h3>
             </div>
             );
     }
