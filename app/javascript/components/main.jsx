@@ -16,6 +16,8 @@ class Main extends React.Component {
         return (
             <div class='container'>
                 <Header />
+                <br/>
+                <br/>
                 <Landing />
                 <About />
                 <Projects />
