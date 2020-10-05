@@ -10,7 +10,7 @@ class Landing extends React.Component {
 
     render(){
         return (
-            <div className="landing">
+            <div id ="landingx"className="landing">
                 <h3>This is landing</h3>
             </div>
             );
