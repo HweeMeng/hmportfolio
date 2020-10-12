@@ -61,6 +61,17 @@
 }
 
 /* this is where for projects transition */
+.projects-holder{
+    margin: 10px 30px;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+}
+
+.projects-indv{
+    display: inline-block;
+    margin: 12px 15px;
+}
 
 figure {
     float: left;
