@@ -1,4 +1,5 @@
 import React from 'react'
+import MyImage from 'images/thumbnail.png'
 
 class Landing extends React.Component {
     constructor(){
@@ -11,34 +12,11 @@ class Landing extends React.Component {
     render(){
         return (
             <div id ="landingx"className="landing">
-                <h3>This is landing</h3>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <h2 className="centering">x</h2>
+                <div className="centering">
+                    <img className="faceThumbnail" src={MyImage} />
+                    <h2>Hi, I'm Hwee Meng</h2>
+                    <h3>I'm a Singapore based Software Engineer</h3>
+                </div>
             </div>
             );
     }
