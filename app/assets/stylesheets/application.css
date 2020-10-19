@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+ .logos{
+     height:20px;
+ }
  body{
      background-color: #8FC0A9;
  }
