@@ -44,8 +44,8 @@ class Projects extends React.Component {
                                 <p className="projectHeader">Goldfish Trainerds</p>
                                 <span>
                                     <p>This is a Group Project. It is built on Ruby on Rails, with Postgres SQL as Database and hosted on Heroku. This is a Social media application for goldifsh lovers</p>
-                                    <img className="logos" src={Rails}/>
-                                    <img className="logos" src={Postgres}/>
+                                    <img className="logos" src={Rails}/>&nbsp;
+                                    <img className="logos" src={Postgres}/>&nbsp;
                                     <img className="logos" src={HerokuLogo}/>
                                 </span>
                             </figcaption>
@@ -58,9 +58,9 @@ class Projects extends React.Component {
                                 <p className="projectHeader">Travinary</p>
                                 <span>
                                     <p>This is a Itinery Planning app for users to enter the country and location which they would like to visit.</p>
-                                    <img className="logos" src={Rails}/>
-                                    <img className="logos" src={Postgres}/>
-                                    <img className="logos" src={ReactIcon}/>
+                                    <img className="logos" src={Rails}/>&nbsp;
+                                    <img className="logos" src={Postgres}/>&nbsp;
+                                    <img className="logos" src={ReactIcon}/>&nbsp;
                                     <img className="logos" src={HerokuLogo}/>
                                 </span>
                             </figcaption>
@@ -73,8 +73,8 @@ class Projects extends React.Component {
                                 <p>Meetup DRF</p>
                                 <span>
                                     <p>This is a backend API project. It is built on Python with Django on SQLite3 Database. It is meant to serve a React Front end</p>
-                                    <img className="logos" src={ElasticLogo}/>
-                                    <img className="logos" src={DjangoLogo}/>
+                                    <img className="logos" src={ElasticLogo}/>&nbsp;
+                                    <img className="logos" src={DjangoLogo}/>&nbsp;
                                     <img className="logos" src={SQLite3Logo}/>
                                 </span> 
                             </figcaption>
