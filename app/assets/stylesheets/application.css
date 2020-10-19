@@ -28,19 +28,16 @@
  .landing{
      width: 100%;
      height: 100vh;
-     background-color: #8FC0A9;
      color: #FAF3DD;
      /* #C8D5B9 or #FAF3DD */
  }
  .projects{
     width: 100%;
     height: 100vh;
-    background-color: #8FC0A9;
 }
 .about{
     width: 100%;
     height: 100vh;
-    background-color: #8FC0A9;
 }
 #navigation{
     position: fixed;
@@ -48,6 +45,7 @@
     width:10vw;
     left:44.5vw;
     text-align: center;
+    z-index: 1;
 }
 #myNavBarCore{
     padding: 0.25rem;
@@ -67,8 +65,8 @@
 
 /* this is where for projects transition */
 .projects-holder{
-    margin: 0px 30px;
-    padding: 10px 10px;
+    margin: 0px 10px;
+    padding: 0px 10px;
     text-align: center;
     position: relative;
 }
@@ -80,15 +78,17 @@
 
 figure {
     float: left;
-    height: 12em;
+    /* height: 15.3em; */
+    height:30vh;
     margin: 1.5em;
-    width: 18em;
+    /* width: 18em; */
+    width: 17vw;
     -webkit-transform: perspective(500);
     -webkit-transform-style: preserve-3d;
     -webkit-transition: .5s;
 }
 figure:hover {
-    -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(6em);
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-1em) translateZ(6em);
 }
 figure > img {
     background-color: #111111;
@@ -101,10 +101,10 @@ figure:hover img {
     box-shadow: none;
 }
 figcaption {
-    background-color: #888888;
-    color: #fff;
+    background-color: #C8D5B9;
+    color: #FAF3DD;
     padding: 1.5em;
-    height: 12em;
+    height: 15em;
     -webkit-transform: rotateX(-90deg);
     -webkit-transform-origin: 100% 0;
     -webkit-transition: .5s;
@@ -114,4 +114,9 @@ figure:hover figcaption {
 }
 h3 {
     font-weight: bold;
+}
+
+figcaption > .projectHeader {
+    font-size: 20px;
+    font-weight: 600;
 }
