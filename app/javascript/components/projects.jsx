@@ -24,7 +24,7 @@ class Projects extends React.Component {
         return (
             <div id="projectsx" className="projects">
                 <div className="projects-holder">
-                    <h3 className="centering">Project Portfolios</h3>
+                    <h3 className="">Project Portfolios</h3>
                     <a className="projects-indv" href="https://hweemeng.github.io/project-1/">
                         <figure>
                             <img src={ProjectOne} alt="Portfolio Item" />
