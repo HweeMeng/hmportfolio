@@ -1,4 +1,5 @@
 import React from 'react'
+import MyImage from 'images/thumbnail.png'
 
 class About extends React.Component {
     constructor(){
@@ -12,7 +13,7 @@ class About extends React.Component {
         return (
             <div id="aboutx" className="about">
                 <h3>
-                    This is where the About is
+                    <img className="faceThumbnail" src={MyImage} />
                 </h3>
             </div>
             );
