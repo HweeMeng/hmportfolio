@@ -70,7 +70,7 @@ class Projects extends React.Component {
                         <figure>
                             <img src={meetUpDrf} alt="Portfolio Item" />
                             <figcaption>
-                                <p>Meetup DRF</p>
+                                <p className="projectHeader">Meetup DRF</p>
                                 <span>
                                     <p>This is a backend API project. It is built on Python with Django on SQLite3 Database. It is meant to serve a React Front end</p>
                                     <img className="logos" src={ElasticLogo}/>&nbsp;
