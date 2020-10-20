@@ -20,13 +20,21 @@ C8D5B9
 8FC0A9
 #c0968f for contrast*/
 
-@keyframes shaking {
+@keyframes heartbeat {
     0%   {transform: scale(1);}
-    20%  {transform: scale(1.4);}
+    20%  {transform: scale(1.2);}
     50%  {transform: scale(0.8);}
     75% {transform: scale(1.2);}
     100% {transform: scale(1);}
-  }
+}
+
+@keyframes shaking {
+    0%   {transform:rotate(0deg);}
+    20%  {transform:rotate(30deg);}
+    50%  {transform:rotate(-30deg);}
+    75% {transform:rotate(30deg);}
+    100% {transform:rotate(0deg);}
+}  
 
 #contact-bar{
     display: block;
@@ -43,16 +51,16 @@ C8D5B9
 
 #contact-bar>a:hover{
     color:#FAF3DD;
-    /* transition-duration: 1s;
-    transform: scale(1.4); */
     animation-name: shaking;
     animation-duration: 1.5s;
 }
 
 #navigation>a:hover{
     color:#FAF3DD;
-    transition-duration: 1s;
-    transform: scale(1.2);
+    /* transition-duration: 1s;
+    transform: scale(1.2); */
+    animation-name: heartbeat;
+    animation-duration: 1s;
 }
 
 .bouts{
