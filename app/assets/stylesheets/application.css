@@ -57,8 +57,6 @@ C8D5B9
 
 #navigation>a:hover{
     color:#FAF3DD;
-    /* transition-duration: 1s;
-    transform: scale(1.2); */
     animation-name: heartbeat;
     animation-duration: 1s;
 }
@@ -146,7 +144,7 @@ html {
 figure {
     float: left;
     /* height: 15.3em; */
-    height:28vh;
+    height:30vh;
     margin: 1.5em;
     /* width: 18em; */
     width: 17vw;
