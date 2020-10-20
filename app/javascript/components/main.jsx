@@ -3,6 +3,8 @@ import Header from '../components/header.jsx';
 import About from '../components/about.jsx';
 import Projects from '../components/projects.jsx';
 import Landing from '../components/landing.jsx';
+import Contact from '../components/contact.jsx';
+Contact
 
 class Main extends React.Component {
     constructor(){
@@ -19,6 +21,7 @@ class Main extends React.Component {
                 <Landing />
                 <About />
                 <Projects />
+                <Contact />
             </div>
             );
     }
