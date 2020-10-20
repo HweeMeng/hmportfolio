@@ -36,6 +36,29 @@ C8D5B9
     100% {transform:rotate(0deg);}
 }  
 
+.bigCaption1, .bigCaption2{
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.bigCaption1{
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+
+.bigCaption2{
+    margin-top:0px;
+    padding-top: 0px;
+}
+
+.slightlyBigger{
+    font-size:24px;
+}
+
+#projectsx>img{
+    border-radius: 10%;
+} 
+
 #contact-bar{
     display: block;
     position: fixed;
@@ -151,6 +174,8 @@ figure {
     -webkit-transform: perspective(500);
     -webkit-transform-style: preserve-3d;
     -webkit-transition: .5s;
+    /* border: 2px solid #FAF3DD; */
+    border-radius: 10%;
 }
 figure:hover {
     -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(8em);
@@ -173,6 +198,7 @@ figcaption {
     -webkit-transform: rotateX(-90deg);
     -webkit-transform-origin: 100% 0;
     -webkit-transition: .5s;
+    border-radius: 10%;
 }
 figure:hover figcaption {
     box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
