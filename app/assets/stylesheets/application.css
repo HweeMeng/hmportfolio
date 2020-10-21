@@ -36,6 +36,9 @@ C8D5B9
     100% {transform:rotate(0deg);}
 }  
 
+.goToAndGit:hover{
+    color:#c0968f
+}
 
 .goToAndGit{
     margin-right: 10px;
