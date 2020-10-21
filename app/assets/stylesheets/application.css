@@ -36,6 +36,13 @@ C8D5B9
     100% {transform:rotate(0deg);}
 }  
 
+
+.goToAndGit{
+    margin-right: 10px;
+    margin-top:0px;
+    color:#FAF3DD;
+}
+
 .bigCaption1, .bigCaption2{
     font-size: 72px;
     font-weight: bold;
@@ -162,7 +169,7 @@ html {
     display: inline-block;
     margin: 12px 15px;
     box-sizing: 30%;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 figure {
@@ -212,4 +219,5 @@ h3 {
 figcaption > .projectHeader {
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
