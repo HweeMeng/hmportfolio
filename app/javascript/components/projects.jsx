@@ -23,8 +23,8 @@ class Projects extends React.Component {
     render(){
         return (
             <div id="projectsx" className="projects">
+                <h3 className="portFol">Project Portfolios</h3>
                 <div className="projects-holder">
-                    <h3 className="">Project Portfolios</h3>
                     <figure>
                         <img src={ProjectOne} alt="Portfolio Item" />
                         <figcaption>
@@ -42,6 +42,7 @@ class Projects extends React.Component {
                             </path>
                         </svg>
                         </a>
+                        <br/>
                         <span>
                             <p>This is a dungeon RPG game created on Javascript and DOM Manipulation. It is hosted in Githib Pages</p>
                             <img className="logos" src={GithubPages}/>
@@ -65,6 +66,7 @@ class Projects extends React.Component {
                             </path>
                         </svg>
                         </a>
+                        <br/>
                         <span>
                             <p>This is a Group Project. It is built on Ruby on Rails, with Postgres SQL as Database and hosted on Heroku. This is a Social media application for goldifsh lovers</p>
                             <img className="logos" src={Rails}/>&nbsp;
@@ -90,6 +92,7 @@ class Projects extends React.Component {
                             </path>
                         </svg>
                         </a>
+                        <br/>
                         <span>
                             <p>This is a Itinery Planning app for users to enter the country and location which they would like to visit.</p>
                             <img className="logos" src={Rails}/>&nbsp;
@@ -116,6 +119,7 @@ class Projects extends React.Component {
                             </path>
                         </svg>
                         </a>
+                        <br/>
                         <span>
                             <p>This is a backend API project. It is built on Python with Django on SQLite3 Database. It is meant to serve a React Front end</p>
                             <img className="logos" src={ElasticLogo}/>&nbsp;

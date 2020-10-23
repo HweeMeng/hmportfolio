@@ -20,6 +20,28 @@ C8D5B9
 8FC0A9
 #c0968f for contrast*/
 
+figure {
+    float: left;
+    height:300px;
+    margin: 1.5em;
+    width: 300px;
+    min-width: 17vw;
+    -webkit-transform: perspective(500);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+    border-radius: 10%;
+}
+figure > img {
+    background-color: #111111;
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+    display: block;
+    height: 100%;
+    width:300px;
+    min-width: 300px;
+    -webkit-transition: .5s;
+    border-radius: 10%;
+}
+
 @keyframes heartbeat {
     0%   {transform: scale(1);}
     20%  {transform: scale(1.2);}
@@ -35,6 +57,8 @@ C8D5B9
     75% {transform:rotate(30deg);}
     100% {transform:rotate(0deg);}
 }  
+
+
 
 .goToAndGit:hover{
     color:#c0968f
@@ -64,17 +88,19 @@ C8D5B9
 .slightlyBigger{
     font-size:24px;
 }
-
+#projectsx{
+    text-align: center;
+}
 #projectsx>img{
     border-radius: 10%;
+    max-width:100%;
 } 
 
 #contact-bar{
     display: block;
     position: fixed;
     bottom:40vh;
-    left: 8vw;
-    width: 1%;
+    left: 5vw;
 }
 
 #contact-bar > .navButts {
@@ -169,36 +195,16 @@ html {
 }
 
 .projects-indv{
-    display: inline-block;
+    display: inline;
     margin: 12px 15px;
     box-sizing: 30%;
     font-size: 10px;
 }
 
-figure {
-    float: left;
-    /* height: 15.3em; */
-    height:28vh;
-    margin: 1.5em;
-    /* width: 18em; */
-    width: 17vw;
-    -webkit-transform: perspective(500);
-    -webkit-transform-style: preserve-3d;
-    -webkit-transition: .5s;
-    /* border: 2px solid #FAF3DD; */
-    border-radius: 10%;
-}
 figure:hover {
     -webkit-transform: perspective(500) rotateX(90deg) translateY(-6em) translateZ(8em);
 }
-figure > img {
-    background-color: #111111;
-    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
-    display: block;
-    height: 100%;
-    -webkit-transition: .5s;
-    border-radius: 10%;
-}
+
 figure:hover img {
     box-shadow: none;
 }
@@ -206,7 +212,8 @@ figcaption {
     background-color: #C8D5B9;
     color: #FAF3DD;
     padding: 1.5em;
-    height: 16em;
+    height: 30vh;
+    /* width: 17vw; */
     -webkit-transform: rotateX(-90deg);
     -webkit-transform-origin: 100% 0;
     -webkit-transition: .5s;
@@ -223,4 +230,41 @@ figcaption > .projectHeader {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 0px;
+}
+
+.covering-about{
+    position: relative;
+    top:20vh;
+}
+
+@media (max-width: 450px) {
+    .portFol{
+        position: relative;
+        top:20vw;
+    }
+    .bigCaption1, .bigCaption2{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .slightlyBigger{
+        font-size:16px;
+    }
+    .bothPicAndWords{
+        display: block;
+    }
+    .faceThumbnail, .bothPicAndWords, .aboutWording{
+        display:block;
+        width: 35vh;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    .centering{
+        text-align: left;
+        position: relative;
+        top:15%;
+    }
+    .covering-about{
+        position: relative;
+        top:0vh;
+    }
 }
