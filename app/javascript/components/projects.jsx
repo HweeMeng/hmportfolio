@@ -129,6 +129,29 @@ class Projects extends React.Component {
                         </figcaption>
                     </figure>
                 </div>
+                <div className="mobile-projects">
+                    <div className="mobile-projects-indv">
+                        <img src={ProjectOne} alt="Portfolio Item" className="mobile-portfolio-image"/>
+                        <div className="mobile-projects-wordblock">
+                            <p className="mobile-wording-title">Mini Dungeon Game</p>
+                            <a href='https://hweemeng.github.io/project-1/' className='goToAndGit'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-in">
+                                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                                <polyline points="10 17 15 12 10 7"></polyline>
+                                <line x1="15" y1="12" x2="3" y2="12"></line>    
+                            </svg>
+                            </a>
+                            <a href='https://github.com/HweeMeng/project-1' className='goToAndGit'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            </a>
+                            <p className="mobile-wording">This is a dungeon RPG game created on Javascript and DOM Manipulation. It is hosted in Githib Pages</p>
+                            <img className="logos" src={GithubPages}/>
+                        </div>
+                    </div>
+                </div>
             </div>
             );
     }

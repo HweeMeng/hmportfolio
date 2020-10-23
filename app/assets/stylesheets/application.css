@@ -237,6 +237,10 @@ figcaption > .projectHeader {
     top:20vh;
 }
 
+.mobile-projects{
+    display: none;
+}
+
 @media (max-width: 450px) {
     .portFol{
         position: relative;
@@ -266,5 +270,52 @@ figcaption > .projectHeader {
     .covering-about{
         position: relative;
         top:0vh;
+    }
+    .projects-holder{
+        display: none;
+    }
+    .mobile-projects{
+        display: initial;
+        position: relative;
+        width: 100%;
+        top:15vh;
+    }
+    .mobile-projects-indv{
+        width: 100%;
+        height:20vh;
+        background-color: #c0968f;
+        border-radius: 20px;
+        display:flex;
+        text-align: left;
+    }
+    .mobile-portfolio-image{
+        position: inherit;
+        height:100%;  
+        width:40%;
+        border-radius: 20px;
+        display: inline-block;
+        
+    }
+    .mobile-projects-wordblock{
+        display: inline-block;
+        width:55%;
+        position: relative;
+        left:2%;
+        height:100%
+    }
+    .mobile-wording-title{
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    .mobile-wording{
+        font-size: 10px;
+        margin: 0.5rem 0rem;
+    }
+    .goToAndGit{
+        position: relative;
+        top:-10%;
+    }
+    .logos{
+        height:30px;
     }
 }
