@@ -20,6 +20,23 @@ C8D5B9
 8FC0A9
 #c0968f for contrast*/
 
+/* #1ae1e5 */
+.ctaButton{
+    border: 1px solid #FAF3DD;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FAF3DD;
+}
+
+.ctaButton:hover{
+    border: 1px solid #FAF3DD;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FAF3DD;
+    background-color: #C8D5B9;
+    text-decoration: none;
+}
+
 figure {
     float: left;
     height:300px;
@@ -132,6 +149,7 @@ figure > img {
 body{
      background-color: #8FC0A9;
  }
+ /* ddd9ca */
 
 .faceThumbnail{
      width: 30vh;
@@ -146,8 +164,9 @@ html {
 .landing{
      width: 100%;
      height: 100vh;
-     color: #FAF3DD;
+     color: #554f36;
      /* #C8D5B9 or #FAF3DD */
+     /* test 1 #554f36 */
  }
 .projects{
     width: 100%;
@@ -178,11 +197,13 @@ html {
     margin:5px;
     padding:20px;
     color: #C8D5B9;
+    font-weight: bold;
+    /* font-size: 15px; */
 }
 .centering{
     text-align: left;
     position: relative;
-    top:25%;
+    top:15%;
 }
 
 /* this is where for projects transition */
@@ -237,20 +258,30 @@ figcaption > .projectHeader {
     top:20vh;
 }
 
-.mobile-projects{
+.mobile-projects, .slightlyBigger-mobile{
     display: none;
 }
 
-@media (max-width: 450px) {
+/* Mobile view */
+
+@media (max-width: 500px) {
+    .slightlyBigger{
+        display: none;
+    }
     .portFol{
         position: relative;
         top:20vw;
     }
-    .bigCaption1, .bigCaption2{
+    .bigCaption1{
         font-size: 36px;
         font-weight: bold;
     }
-    .slightlyBigger{
+    .bigCaption2{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .slightlyBigger-mobile{
+        display:inherit;
         font-size:16px;
     }
     .bothPicAndWords{
@@ -266,6 +297,8 @@ figcaption > .projectHeader {
         text-align: left;
         position: relative;
         top:15%;
+        left:12%;
+        width:80%;
     }
     .covering-about{
         position: relative;
@@ -282,11 +315,12 @@ figcaption > .projectHeader {
     }
     .mobile-projects-indv{
         width: 100%;
-        height:20vh;
-        background-color: #c0968f;
+        height:22vh;
+        background-color: #C8D5B9;
         border-radius: 20px;
         display:flex;
         text-align: left;
+        margin-top: 7px;
     }
     .mobile-portfolio-image{
         position: inherit;
@@ -316,6 +350,9 @@ figcaption > .projectHeader {
         top:-10%;
     }
     .logos{
+        height:18px;
+    }
+    .logos1{
         height:30px;
     }
 }
